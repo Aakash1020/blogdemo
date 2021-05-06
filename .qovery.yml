@@ -1,0 +1,15 @@
+---
+application:
+  name: "blogdemo"
+  project: "blog"
+  organization: "QoveryCommunity"
+databases:
+- type: "MONGODB"
+  name: "blog"
+  version: "3.6"
+routers:
+- name: "main-blogdemo"
+  routes:
+  - application_name: "blogdemo"
+    paths:
+    - "/*"
