@@ -17,8 +17,8 @@
       "unique": true
     },
     "blogs": {
-      "collection": "blogs",
       "via": "categories",
+      "collection": "blogs",
       "dominant": true
     }
   }
